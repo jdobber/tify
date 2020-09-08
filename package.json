@@ -14,6 +14,9 @@
     "name": "Tobias Schäfer",
     "url": "https://aspectis.net/"
   },
+  "contributors": {
+    "url": "https://github.com/tify-iiif-viewer/tify/graphs/contributors"
+  },
   "license": "AGPL-3.0",
   "scripts": {
     "build": "vue-cli-service build",

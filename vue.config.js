@@ -6,6 +6,7 @@ const env = require('./package.json');
 const info = {
 	VERSION: env.version,
 	AUTHOR: env.author,
+	CONTRIBUTORS_URL: env.contributors.url,
 	LICENSE: env.license,
 	REPOSITORY_URL: env.repository.url,
 	BUGS_URL: env.bugs.url,

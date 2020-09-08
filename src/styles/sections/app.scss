@@ -44,6 +44,12 @@
 		}
 	}
 
+	hr {
+		border: 0;
+		border-bottom: 1px solid $shade;
+		margin: ($grid * .75 - 1px) 0 ($grid * .75);
+	}
+
 	label {
 		cursor: pointer;
 	}
