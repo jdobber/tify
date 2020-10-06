@@ -5,7 +5,6 @@ const env = require('./package.json');
 
 const info = {
 	VERSION: env.version,
-	AUTHOR: env.author,
 	CONTRIBUTORS_URL: env.contributors.url,
 	LICENSE: env.license,
 	REPOSITORY_URL: env.repository.url,
@@ -28,9 +27,8 @@ module.exports = {
 			/* eslint-disable function-paren-newline */
 			new BannerPlugin(
 				`TIFY v${env.version}\n`
-							+ `(c) ${new Date().getFullYear()} ${env.author.name} (${env.author.url})\n`
-							+ `${env.license}\n`
-							+ `${env.homepage}` // eslint-disable-line comma-dangle
+					+ `${env.license}\n`
+					+ `${env.homepage}` // eslint-disable-line comma-dangle
 			),
 		],
 	},
